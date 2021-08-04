@@ -84,13 +84,13 @@ button:focus{
     z-index: 100;
 }
 
-.action-buttons .down-buttons{
+.action-buttons .down-button{
     transform: translateX(-100%);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
-.action-buttons .up-buttons{
+.action-buttons .up-button{
     transform: translateY(-100%);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
