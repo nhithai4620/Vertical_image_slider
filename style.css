@@ -68,3 +68,30 @@ button{
     padding: 15px;
     cursor: pointer;
 }
+
+button:hover{
+    color: #222;
+}
+
+button:focus{
+    outline: none;
+}
+
+.action-buttons button{
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    z-index: 100;
+}
+
+.action-buttons .down-buttons{
+    transform: translateX(-100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.action-buttons .up-buttons{
+    transform: translateY(-100%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
